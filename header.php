@@ -3,7 +3,7 @@
         class="container-fluid d-flex align-items-center justify-content-between"
       >
         <a
-          href="index.html"
+          href="index.php"
           class="logo d-flex align-items-center me-auto me-xl-0"
         >
           <!-- Uncomment the line below if you also wish to use an image logo -->
@@ -15,12 +15,12 @@
         <!-- Nav Menu -->
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="index.html#hero" class="active">Home</a></li>
-            <li><a href="index.html#about">About</a></li>
-            <li><a href="index.html#services">Services</a></li>
-            <li><a href="index.html#portfolio">Portfolio</a></li>
-            <li><a href="index.html#team">Team</a></li>
-            <li><a href="blog.html">Blog</a></li>
+            <li><a href="index.php#hero" class="active">Home</a></li>
+            <li><a href="index.php#about">About</a></li>
+            <li><a href="index.php#services">Services</a></li>
+            <li><a href="index.php#portfolio">Portfolio</a></li>
+            <li><a href="index.php#team">Team</a></li>
+            <li><a href="blog.php">Blog</a></li>
             <li class="dropdown has-dropdown">
               <a href="#"
                 ><span>Dropdown</span> <i class="bi bi-chevron-down"></i
