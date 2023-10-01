@@ -1,0 +1,12 @@
+.section-1 {
+}
+
+.section-1 .welcome-title {
+  font-size: 60px;
+}
+
+.four-qual-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

@@ -39,6 +39,8 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
 
+
+
     <!-- =======================================================
   * Template Name: Append
   * Updated: Sep 18 2023 with Bootstrap v5.3.2
@@ -49,7 +51,7 @@
   </head>
 
   <body class="index-page" data-bs-spy="scroll" data-bs-target="#navmenu">
-<header id="header" class="header fixed-top d-flex align-items-center">
+<header id="header" class="header fixed-top d-flex align-items-center ">
       <div
         class="container-fluid d-flex align-items-center justify-content-between"
       >
@@ -59,7 +61,7 @@
         >
           <!-- Uncomment the line below if you also wish to use an image logo -->
           <!-- <img src="assets/img/logo.png" alt=""> -->
-          <h1>Append</h1>
+          <h1>Find Your Live</h1>
           <span>.</span>
         </a>
 
