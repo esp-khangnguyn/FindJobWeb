@@ -442,141 +442,30 @@
       <!-- End Testimonials Section -->
 
       <!-- Recent-posts Section - Home Page -->
-      <section id="recent-posts" class="recent-posts">
-        <!--  Section Title -->
-        <div class="container section-title" data-aos="fade-up">
-          <h2>Top nhà tuyển dụng</h2>
-          <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
-          </p>
-        </div>
-        <!-- End Section Title -->
 
-        <div class="container">
-          <div class="row gy-4 swiper-jobs">
-            <div
-              class="col-xl-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <article>
-                <div class="post-img">
-                  <img
-                    src="assets/img/blog/blog-1.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </div>
-
-                <p class="post-category">Politics</p>
-
-                <h2 class="title">
-                  <a href="blog-details.html"
-                    >Dolorum optio tempore voluptas dignissimos</a
-                  >
-                </h2>
-
-                <div class="d-flex align-items-center">
-                  <img
-                    src="assets/img/blog/blog-author.jpg"
-                    alt=""
-                    class="img-fluid post-author-img flex-shrink-0"
-                  />
-                  <div class="post-meta">
-                    <p class="post-author">Maria Doe</p>
-                    <p class="post-date">
-                      <time datetime="2022-01-01">Jan 1, 2022</time>
-                    </p>
-                  </div>
-                </div>
-              </article>
-            </div>
-             <div
-              class="col-xl-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="100"
-            >
-              <article>
-                <div class="post-img">
-                  <img
-                    src="assets/img/blog/blog-1.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </div>
-
-                <p class="post-category">Politics</p>
-
-                <h2 class="title">
-                  <a href="blog-details.html"
-                    >Dolorum optio tempore voluptas dignissimos</a
-                  >
-                </h2>
-
-                <div class="d-flex align-items-center">
-                  <img
-                    src="assets/img/blog/blog-author.jpg"
-                    alt=""
-                    class="img-fluid post-author-img flex-shrink-0"
-                  />
-                  <div class="post-meta">
-                    <p class="post-author">Maria Doe</p>
-                    <p class="post-date">
-                      <time datetime="2022-01-01">Jan 1, 2022</time>
-                    </p>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <!-- End post list item -->
-
-
-            <div
-              class="col-xl-4 col-md-6"
-              data-aos="fade-up"
-              data-aos-delay="300"
-            >
-              <article>
-                <div class="post-img">
-                  <img
-                    src="assets/img/blog/blog-3.jpg"
-                    alt=""
-                    class="img-fluid"
-                  />
-                </div>
-
-                <p class="post-category">Entertainment</p>
-
-                <h2 class="title">
-                  <a href="blog-details.html"
-                    >Possimus soluta ut id suscipit ea ut in quo quia et
-                    soluta</a
-                  >
-                </h2>
-
-                <div class="d-flex align-items-center">
-                  <img
-                    src="assets/img/blog/blog-author-3.jpg"
-                    alt=""
-                    class="img-fluid post-author-img flex-shrink-0"
-                  />
-                  <div class="post-meta">
-                    <p class="post-author">Mark Dower</p>
-                    <p class="post-date">
-                      <time datetime="2022-01-01">Jun 22, 2022</time>
-                    </p>
-                  </div>
-                </div>
-              </article>
-            </div>
-            <!-- End post list item -->
-          </div>
-          <!-- End recent posts list -->
-        </div>
-      </section>
       <!-- End Recent-posts Section -->
-
+      <div class="section-top-client section-title container">
+        <h2>Top Employment</h2>
+        <div class="swiper mySwiper section-intro">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/img/clients/client-1.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/clients/client-2.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/clients/client-3.png" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/clients/client-4.png" alt="">
+          </div> 
+          <div class="swiper-slide">
+            <img src="assets/img/clients/client-5.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
       <!-- Contact Section - Home Page -->
       <section id="contact" class="contact">
         <!--  Section Title -->

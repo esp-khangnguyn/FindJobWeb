@@ -1,8 +1,11 @@
-var swiper = new Swiper(".swiper-jobs", {
+var swiper = new Swiper(".mySwiper", {
   effect: "coverflow",
   grabCursor: true,
   centeredSlides: true,
   slidesPerView: "auto",
+  initialSlide: 2,
+  loop: true,
+  spaceBetween: 20,
   coverflowEffect: {
     rotate: 50,
     stretch: 0,
@@ -14,4 +17,5 @@ var swiper = new Swiper(".swiper-jobs", {
     el: ".swiper-pagination",
   },
 });
-console.log($(".swiper-jobs"));
+
+console.log(123);

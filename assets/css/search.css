@@ -1,0 +1,22 @@
+.page-title .heading {
+  background-image: linear-gradient(
+    179deg,
+    rgba(0, 0, 0, 1) 35.2%,
+    var(--main-color) 150.9%
+  );
+  padding-top: 120px;
+  color: #ffff;
+}
+
+.page-title .heading h1,
+.page-title nav ol li + li::before {
+  color: #ffff;
+}
+
+.blog .posts-list article {
+  transition: all 0.3s ease-out;
+}
+
+.blog .posts-list article:hover {
+  box-shadow: 1px 11px 13px var(--main-color);
+}
