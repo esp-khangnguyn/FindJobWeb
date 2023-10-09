@@ -39,7 +39,7 @@
     <!-- Template Main CSS File -->
     <link href="assets/css/main.css" rel="stylesheet" />
 
-
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
     <!-- =======================================================
   * Template Name: Append
@@ -105,6 +105,6 @@
         </nav>
         <!-- End Nav Menu -->
 
-        <a class="btn-getstarted" href="index.php#about">Get Started</a>
+        <a class="btn-getstarted main-bg" href="index.php#about">Get Started</a>
       </div>
     </header>

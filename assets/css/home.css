@@ -10,3 +10,32 @@
   flex-direction: row;
   justify-content: space-between;
 }
+
+.section-intro.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.section-intro .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  background-color: #fff;
+  padding: 0 20px;
+}
+
+.section-intro .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.section-top-client {
+}
+
+.section-top-client .swiper-3d .swiper-slide-shadow-left,
+.section-top-client .swiper-3d .swiper-slide-shadow-right {
+  background-image: none;
+}
