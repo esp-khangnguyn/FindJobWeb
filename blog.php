@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Blog - Append Bootstrap Temlate</title>
+  <title>Blog - TuyenDung</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -28,16 +28,10 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Append
-  * Updated: Sep 18 2023 with Bootstrap v5.3.2
-  * Template URL: https://bootstrapmade.com/append-bootstrap-website-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body class="blog-page" data-bs-spy="scroll" data-bs-target="#navmenu">
+
 
   <!-- ======= Header ======= -->
   <header id="header" class="header sticky-top d-flex align-items-center">
@@ -45,12 +39,13 @@
 
       <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1>Append</h1>
+        <img src="assets/img/logo.png" alt="">
+        <h1>Minh Cong</h1> 
         <span>.</span>
       </a>
 
       <!-- Nav Menu -->
+
       <nav id="navmenu" class="navmenu">
         <ul>
           <li><a href="index.html#hero">Home</a></li>
@@ -58,7 +53,7 @@
           <li><a href="index.html#services">Services</a></li>
           <li><a href="index.html#portfolio">Portfolio</a></li>
           <li><a href="index.html#team">Team</a></li>
-          <li><a href="blog.html" class="active">Blog</a></li>
+          <li><a href="blog.php" class="active">Blog</a></li>
           <li class="dropdown has-dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down"></i></a>
             <ul class="dd-box-shadow">
               <li><a href="#">Dropdown 1</a></li>
@@ -85,18 +80,20 @@
       <a class="btn-getstarted" href="index.html#about">Get Started</a>
 
     </div>
-  </header><!-- End Header -->
+  </header>
+  <!-- End Header -->
 
   <main id="main">
 
     <!-- Blog Page Title & Breadcrumbs -->
+
     <div data-aos="fade" class="page-title">
       <div class="heading">
         <div class="container">
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
               <h1>Blog</h1>
-              <p class="mb-0">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+              <p class="mb-0">Website Tuyen Dung IT <3 </p>
             </div>
           </div>
         </div>
@@ -112,6 +109,7 @@
     </div><!-- End Page Title -->
 
     <!-- Blog Section - Blog Page -->
+    
     <section id="blog" class="blog">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
@@ -125,18 +123,18 @@
                 <img src="assets/img/blog/blog-1.jpg" alt="" class="img-fluid">
               </div>
 
-              <p class="post-category">Politics</p>
+              <p class="post-category">Lập trình</p>
 
               <h2 class="title">
-                <a href="blog-details.html">Dolorum optio tempore voluptas dignissimos</a>
+                <a href="blog-details.php">Các ngôn ngữ lập trình</a>
               </h2>
 
               <div class="d-flex align-items-center">
                 <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
-                  <p class="post-author">Maria Doe</p>
+                  <p class="post-author">Minh Cong</p>
                   <p class="post-date">
-                    <time datetime="2022-01-01">Jan 1, 2022</time>
+                    <time datetime="2022-01-01">07/09/2023</time>
                   </p>
                 </div>
               </div>
@@ -151,18 +149,18 @@
                 <img src="assets/img/blog/blog-2.jpg" alt="" class="img-fluid">
               </div>
 
-              <p class="post-category">Sports</p>
+              <p class="post-category">C++</p>
 
               <h2 class="title">
-                <a href="blog-details.html">Nisi magni odit consequatur autem nulla dolorem</a>
+                <a href="blog-details.php">Ngôn ngữ lập trình C++</a>
               </h2>
 
               <div class="d-flex align-items-center">
                 <img src="assets/img/blog/blog-author-2.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
-                  <p class="post-author">Allisa Mayer</p>
+                  <p class="post-author">Đào Minh Tuệ</p>
                   <p class="post-date">
-                    <time datetime="2022-01-01">Jun 5, 2022</time>
+                    <time datetime="2022-01-01">07/09/2023</time>
                   </p>
                 </div>
               </div>
@@ -177,16 +175,16 @@
                 <img src="assets/img/blog/blog-3.jpg" alt="" class="img-fluid">
               </div>
 
-              <p class="post-category">Entertainment</p>
+              <p class="post-category">Java</p>
 
               <h2 class="title">
-                <a href="blog-details.html">Possimus soluta ut id suscipit ea ut in quo quia et soluta</a>
+                <a href="blog-details.php">Ngôn Ngữ Lập Trình Java</a>
               </h2>
 
               <div class="d-flex align-items-center">
                 <img src="assets/img/blog/blog-author-3.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
                 <div class="post-meta">
-                  <p class="post-author">Mark Dower</p>
+                  <p class="post-author">Nguyễn Lê Khang</p>
                   <p class="post-date">
                     <time datetime="2022-01-01">Jun 22, 2022</time>
                   </p>
@@ -206,7 +204,7 @@
               <p class="post-category">Sports</p>
 
               <h2 class="title">
-                <a href="blog-details.html">Non rem rerum nam cum quo minus olor distincti</a>
+                <a href="blog-details.php">Non rem rerum nam cum quo minus olor distincti</a>
               </h2>
 
               <div class="d-flex align-items-center">
@@ -232,7 +230,7 @@
               <p class="post-category">Politics</p>
 
               <h2 class="title">
-                <a href="blog-details.html">Accusamus quaerat aliquam qui debitis facilis consequatur</a>
+                <a href="blog-details.php">Accusamus quaerat aliquam qui debitis facilis consequatur</a>
               </h2>
 
               <div class="d-flex align-items-center">
@@ -258,7 +256,7 @@
               <p class="post-category">Entertainment</p>
 
               <h2 class="title">
-                <a href="blog-details.html">Distinctio provident quibusdam numquam aperiam aut</a>
+                <a href="blog-details.php">Distinctio provident quibusdam numquam aperiam aut</a>
               </h2>
 
               <div class="d-flex align-items-center">
@@ -278,8 +276,8 @@
 
         <div class="pagination d-flex justify-content-center">
           <ul>
-            <li><a href="#">1</a></li>
-            <li class="active"><a href="#">2</a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li> <a href="#">2</a></li>
             <li><a href="#">3</a></li>
           </ul>
         </div><!-- End pagination -->
@@ -299,7 +297,7 @@
           <a href="index.html" class="logo d-flex align-items-center">
             <span>Append</span>
           </a>
-          <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
+          <p>Tuyển dụng việc làm IT</p>
           <div class="social-links d-flex mt-4">
             <a href=""><i class="bi bi-twitter"></i></a>
             <a href=""><i class="bi bi-facebook"></i></a>
@@ -355,6 +353,7 @@
 
   </footer><!-- End Footer -->
 
+  
   <!-- Scroll Top Button -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
