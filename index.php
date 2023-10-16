@@ -20,7 +20,7 @@
             </div>
             <div class="col-lg-5">
               <form
-                action="#"
+                action="search.php"
                 class="sign-up-form d-flex"
                 data-aos="fade-up"
                 data-aos-delay="300"
@@ -29,9 +29,9 @@
                   type="text"
                   name="e"
                   class="form-control"
-                  placeholder="Enter email address"
+                  placeholder="Nhập key word bạn muốn tìm"
                 />
-                <input type="submit" class="btn btn-primary" value="Sign up" />
+                <input type="submit" class="btn btn-primary" value="Tìm kiếms" name="key" />
               </form>
             </div>
           </div>

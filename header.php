@@ -68,18 +68,14 @@
         <!-- Nav Menu -->
         <nav id="navmenu" class="navmenu">
           <ul>
-            <li><a href="index.php#hero" class="active">Home</a></li>
-            <li><a href="index.php#about">About</a></li>
-            <li><a href="index.php#services">Services</a></li>
-            <li><a href="index.php#portfolio">Portfolio</a></li>
-            <li><a href="index.php#team">Team</a></li>
-            <li><a href="blog.php">Blog</a></li>
+            <li><a href="index.php#hero" class="active">Trang chủ</a></li>
+            <li><a href="search.php#about">Tìm việc làm</a></li>
             <li class="dropdown has-dropdown">
               <a href="#"
                 ><span>Dropdown</span> <i class="bi bi-chevron-down"></i
               ></a>
               <ul class="dd-box-shadow">
-                <li><a href="#">Dropdown 1</a></li>
+                <li><a href="#"></a></li>
                 <li class="dropdown has-dropdown">
                   <a href="#"
                     ><span>Deep Dropdown</span>
