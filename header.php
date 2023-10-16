@@ -75,7 +75,7 @@
                 ><span>Dropdown</span> <i class="bi bi-chevron-down"></i
               ></a>
               <ul class="dd-box-shadow">
-                <li><a href="#">Dropdown 1</a></li>
+                <li><a href="#"></a></li>
                 <li class="dropdown has-dropdown">
                   <a href="#"
                     ><span>Deep Dropdown</span>
