@@ -3,12 +3,11 @@
         <div class="row gy-4">
           <div class="col-lg-5 col-md-12 footer-about">
             <a href="index.php" class="logo d-flex align-items-center">
-              <span>Append</span>
+              <span>Find Your Job</span>
             </a>
             <p>
-              Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
-              nada terra videa magna derita valies darta donna mare fermentum
-              iaculis eu non diam phasellus.
+                - Nơi Bắt Đầu Sự Nghiệp Của Bạn -
+                <p> Chúng tôi cam kết giúp bạn khám phá cơ hội nghề nghiệp, phát triển kỹ năng, và định hình tương lai sự nghiệp của bạn. Hãy để chúng tôi hỗ trợ bạn trong việc tìm kiếm con đường đúng đắn đến công việc bạn mong muốn và đạt được mục tiêu sự nghiệp của mình.</p>
             </p>
             <div class="social-links d-flex mt-4">
               <a href=""><i class="bi bi-twitter"></i></a>
@@ -29,35 +28,26 @@
             </ul>
           </div>
 
-          <div class="col-lg-2 col-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><a href="#">Web Design</a></li>
-              <li><a href="#">Web Development</a></li>
-              <li><a href="#">Product Management</a></li>
-              <li><a href="#">Marketing</a></li>
-              <li><a href="#">Graphic Design</a></li>
-            </ul>
-          </div>
+        
 
           <div
             class="col-lg-3 col-md-12 footer-contact text-center text-md-start"
           >
             <h4>Contact Us</h4>
-            <p>A108 Adam Street</p>
-            <p>New York, NY 535022</p>
-            <p>United States</p>
+            <p>Đường Hàn Thuyên</p>
+            <p>Khu phố 6,TP.Thủ Đức</p>
+            <p>Thành phố Hồ Chí Minh</p>
             <p class="mt-4">
-              <strong>Phone:</strong> <span>+1 5589 55488 55</span>
+              <strong>Phone:</strong> <span>123456789</span>
             </p>
-            <p><strong>Email:</strong> <span>info@example.com</span></p>
+            <p><strong>Email:</strong> <span>nhom_7@example.com</span></p>
           </div>
         </div>
       </div>
 
       <div class="container copyright text-center mt-4">
         <p>
-          &copy; <span>Copyright</span> <strong class="px-1">Append</strong>
+          &copy; <span>Copyright</span> <strong class="px-1">Find Your Job</strong>
           <span>All Rights Reserved</span>
         </p>
         <div class="credits">
@@ -65,7 +55,7 @@
           <!-- You can delete the links only if you've purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
         </div>
       </div>
     </footer>
