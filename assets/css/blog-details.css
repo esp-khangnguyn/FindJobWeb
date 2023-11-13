@@ -53,3 +53,8 @@
   position: sticky;
   overflow: auto;
 }
+
+.emp-btn {
+  text-align: center;
+  font-weight: 700;
+}

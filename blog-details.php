@@ -1,5 +1,6 @@
 <?php include 'header.php'  ?>
   <link rel="stylesheet" href="./assets/css/blog-details.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
   <main id="main blog-details">
 
     <!-- Blog Details Page Title & Breadcrumbs -->
@@ -169,6 +170,7 @@
                   <li><a href="#">Creative <span>(8)</span></a></li>
                   <li><a href="#">Educaion <span>(14)</span></a></li>
                 </ul>
+                <button data-bs-toggle="modal" data-bs-target="#send-cv" type="button" class="w-100 bg-color rounded-2 p-2 text-light fw-2 emp-btn border-0 ">ỨNG TUYỂN</button>
               </div><!-- End sidebar categories-->
 
               <div class="sidebar-item recent-posts">
@@ -241,6 +243,37 @@
       </div>
 
     </section><!-- End Blog-details Section -->
-
+    
+    <div class="modal fade" id="send-cv" tabindex="-1" aria-labelledby="send-cv" aria-hidden="true">
+      <div class="modal-dialog" style="max-width:700px;">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5 fw-bold " id="send-cv">Title Job....</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label fs-5 fw-bold">Họ tên</label>
+                <input type="text" class="form-control" id="recipient-name">
+              </div>
+              <div class="mb-3">
+                <label for="cv-file" class="col-form-label fs-5 fw-bold">Tải CV</label>
+                <input type="file" class="form-control" id="cv-file">
+              </div>
+              <div class="mb-3">
+                <label for="message-text" class="col-form-label fs-5 fw-bold">Thư xin việc</label>
+                <p>Những kỹ năng, dự án hay thành tựu nào chứng tỏ bạn là một ứng viên tiềm năng cho vị trí ứng tuyển này?</p>
+                <textarea class="form-control" id="message-text"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary bg-color">Gửi CV của tôi</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </main>
   <?php include 'footer.php'  ?>
