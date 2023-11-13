@@ -30,7 +30,7 @@
   background-color: #fff;
   border-radius: 8px;
   height: fit-content;
-  position: relative;
+
   margin-top: 10px;
 }
 
@@ -59,15 +59,5 @@
 }
 
 .avatar-containter img {
-  border-radius: 50%;
-}
-
-.box .edit-icon {
-  float: inline-end;
-  width: 24px;
-  height: 24px;
-}
-
-.cv-image {
-  width: 100%;
+  border-radius: 12px;
 }

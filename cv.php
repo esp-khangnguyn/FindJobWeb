@@ -23,7 +23,7 @@
                     <li class="list-group-item"> + Thêm kỹ năng</li>
                     <li class="list-group-item"> + Thêm chứng chỉ</li>
                 </ul>
-                <button type="file" class="w-100 bg-color border-0 button rounded-2 p-2 text-white mt-4" >
+                <button type="file" class="w-100 bg-color border-0 button rounded-2 p-2 text-white mt-4" data-bs-toggle="modal" data-bs-target="#editCVModal">
                     Xem và tải cv
                 </button>
             </div><!-- End Sidebar -->
@@ -45,6 +45,7 @@
               <div class="content">
                 <h3>
                   Giới thiệu bản thân
+                  <img src="./assets/img/pen-to-square-solid.svg" alt="" class="edit-icon" data-bs-toggle="modal" data-bs-target="#editModal">
                 </h3>
                 <hr />
                 <p>
@@ -56,6 +57,7 @@
               <div class="content">
                 <h3>
                   Học vấn
+                  <img src="./assets/img/pen-to-square-solid.svg" alt="" class="edit-icon">
                 </h3>
                 <p>
                     Sinh viên năm 6 UIT
@@ -66,6 +68,7 @@
               <div class="content">
                 <h3>
                     Kinh nghiệm làm việc
+                    <img src="./assets/img/pen-to-square-solid.svg" alt="" class="edit-icon">
                 </h3>
                 <p>
                     Trải qua 20 năm ăn hàng ở không
@@ -76,6 +79,7 @@
               <div class="content">
                 <h3>
                    Kỹ năng
+                   <img src="./assets/img/pen-to-square-solid.svg" alt="" class="edit-icon">
                 </h3>
                 <p>
                    Hít thở bằng miệng , ăn mì bằng mũi
@@ -86,6 +90,7 @@
               <div class="content">
                 <h3>
                    Dự án cá nhân
+                   <img src="./assets/img/pen-to-square-solid.svg" alt="" class="edit-icon">
                 </h3>
                 <p>
                    PetShop
@@ -96,6 +101,7 @@
               <div class="content">
                 <h3>
                    Chứng chỉ
+                   <img src="./assets/img/pen-to-square-solid.svg" alt="" class="edit-icon">
                 </h3>
                 <p>
                   Tốt nghiệp THPT
@@ -106,6 +112,7 @@
               <div class="content">
                 <h3>
                     Giải thưởng
+                    <img src="./assets/img/pen-to-square-solid.svg" alt="" class="edit-icon">
                 </h3>
                 <p>
                     Vua chữ đẹp
@@ -122,4 +129,50 @@
     </section><!-- End Blog-details Section -->
 
   </main>
+
+
+  <div class="modal fade" id="editModal" tabindex="-1" aria-labelledby="editModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Chỉnh sửa thông tin</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="message-text" class="col-form-label">Giới thiệu bản thân</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+          <button type="button" class="btn btn-primary bg-color">Chấp nhận</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="editCVModal" tabindex="-1" aria-labelledby="editCVModal" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="editCVModal">Chỉnh sửa thông tin</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <img src="./assets/img/cv.png" alt="" class="cv-image">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Hủy</button>
+          <button type="button" class="btn btn-primary bg-color">Chấp nhận</button>
+        </div>
+      </div>
+    </div>
+  </div>
   <?php include 'footer.php'  ?>
