@@ -272,7 +272,7 @@
                           alt=""
                         />
                         <div>
-                          <h3>Saul Goodman</h3>
+                          <h3>Quốc Bảo</h3>
                           <h4>Ceo & Founder</h4>
                           <div class="stars">
                             <i class="bi bi-star-fill"></i
@@ -286,10 +286,8 @@
                       <p>
                         <i class="bi bi-quote quote-icon-left"></i>
                         <span
-                          >Proin iaculis purus consequat sem cure digni ssim
-                          donec porttitora entum suscipit rhoncus. Accusantium
-                          quam, ultricies eget id, aliquam eget nibh et. Maecen
-                          aliquam, risus at semper.</span
+                          >Tôi không bao giờ nghĩ rằng việc tìm kiếm công việc có thể dễ dàng đến vậy cho đến khi tôi tìm thấy FIND YOUR JOB.
+                           Họ làm cho quá trình này trở nên mượt mà và hiệu quả.</span
                         >
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
@@ -306,7 +304,7 @@
                           alt=""
                         />
                         <div>
-                          <h3>Sara Wilsson</h3>
+                          <h3>Lê Khang</h3>
                           <h4>Designer</h4>
                           <div class="stars">
                             <i class="bi bi-star-fill"></i
@@ -320,10 +318,8 @@
                       <p>
                         <i class="bi bi-quote quote-icon-left"></i>
                         <span
-                          >Export tempor illum tamen malis malis eram quae irure
-                          esse labore quem cillum quid cillum eram malis quorum
-                          velit fore eram velit sunt aliqua noster fugiat irure
-                          amet legam anim culpa.</span
+                          >Tôi đã tìm kiếm việc làm trong nhiều năm và đã thử nhiều dịch vụ khác nhau. 
+                          Tuy nhiên, sau khi sử dụng FIND YOUR JOB, tôi đã tìm thấy công việc mà tôi thực sự đam mê và phù hợp với tôi. Họ không chỉ giúp tôi tìm việc, mà còn giúp tôi định hình lại sự nghiệp của mình.</span
                         >
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
@@ -340,7 +336,7 @@
                           alt=""
                         />
                         <div>
-                          <h3>Jena Karlis</h3>
+                          <h3>Minh Công</h3>
                           <h4>Store Owner</h4>
                           <div class="stars">
                             <i class="bi bi-star-fill"></i
@@ -354,10 +350,8 @@
                       <p>
                         <i class="bi bi-quote quote-icon-left"></i>
                         <span
-                          >Enim nisi quem export duis labore cillum quae magna
-                          enim sint quorum nulla quem veniam duis minim tempor
-                          labore quem eram duis noster aute amet eram fore quis
-                          sint minim.</span
+                          >"FIND YOUR JOB đã mang lại cho tôi một trải nghiệm tuyệt vời trong việc tìm kiếm việc làm. Họ cung cấp nhiều tài liệu hữu ích và tư vấn chi tiết về cách nộp đơn và phỏng vấn.
+                           Tôi đã thành công trong việc tìm việc và đây thực sự là một nơi tuyệt vời để bắt đầu.</span
                         >
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
@@ -374,7 +368,7 @@
                           alt=""
                         />
                         <div>
-                          <h3>Matt Brandon</h3>
+                          <h3>Minh Tuệ</h3>
                           <h4>Freelancer</h4>
                           <div class="stars">
                             <i class="bi bi-star-fill"></i
@@ -388,10 +382,8 @@
                       <p>
                         <i class="bi bi-quote quote-icon-left"></i>
                         <span
-                          >Fugiat enim eram quae cillum dolore dolor amet nulla
-                          culpa multos export minim fugiat minim velit minim
-                          dolor enim duis veniam ipsum anim magna sunt elit fore
-                          quem dolore labore illum veniam.</span
+                          >Sự nhiệt tình và chuyên nghiệp của FIND YOUR JOB đã khiến tôi cảm thấy an tâm và tự tin trong việc tìm kiếm công việc. 
+                          Họ đã tận dụng mạng lưới kết nối của họ để giới thiệu tôi với nhiều cơ hội nghề nghiệp tiềm năng.</span
                         >
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
@@ -408,7 +400,7 @@
                           alt=""
                         />
                         <div>
-                          <h3>John Larson</h3>
+                          <h3>Minh Huy</h3>
                           <h4>Entrepreneur</h4>
                           <div class="stars">
                             <i class="bi bi-star-fill"></i
@@ -422,10 +414,8 @@
                       <p>
                         <i class="bi bi-quote quote-icon-left"></i>
                         <span
-                          >Quis quorum aliqua sint quem legam fore sunt eram
-                          irure aliqua veniam tempor noster veniam enim culpa
-                          labore duis sunt culpa nulla illum cillum fugiat legam
-                          esse veniam culpa fore nisi cillum quid.</span
+                          >"Tôi đã được FIND YOUR JOB giúp đỡ trong việc tạo và cập nhật hồ sơ cá nhân của mình. 
+                          Điều này đã giúp tôi nổi bật trong việc xin việc và thu hút sự chú ý của nhà tuyển dụng. Tôi rất biết ơn sự hỗ trợ này.</span
                         >
                         <i class="bi bi-quote quote-icon-right"></i>
                       </p>
@@ -472,8 +462,7 @@
         <div class="container section-title" data-aos="fade-up">
           <h2>Contact</h2>
           <p>
-            Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-            consectetur velit
+          Hãy liên hệ với chúng tôi ngay
           </p>
         </div>
         <!-- End Section Title -->
@@ -486,8 +475,9 @@
                   <div class="info-item" data-aos="fade" data-aos-delay="200">
                     <i class="bi bi-geo-alt"></i>
                     <h3>Address</h3>
-                    <p>A108 Adam Street</p>
-                    <p>New York, NY 535022</p>
+                    <p>Đường Hàn Thuyên</p>
+                    <p>Khu phố 6,TP.Thủ Đức<</p>
+                    <p>Thành phố Hồ Chí Minh</p>
                   </div>
                 </div>
                 <!-- End Info Item -->
@@ -496,8 +486,8 @@
                   <div class="info-item" data-aos="fade" data-aos-delay="300">
                     <i class="bi bi-telephone"></i>
                     <h3>Call Us</h3>
-                    <p>+1 5589 55488 55</p>
-                    <p>+1 6678 254445 41</p>
+                    <p>+1 23456789</p>
+              
                   </div>
                 </div>
                 <!-- End Info Item -->
@@ -506,8 +496,8 @@
                   <div class="info-item" data-aos="fade" data-aos-delay="400">
                     <i class="bi bi-envelope"></i>
                     <h3>Email Us</h3>
-                    <p>info@example.com</p>
-                    <p>contact@example.com</p>
+                    <p>nhom_7@example.com</p>
+                   
                   </div>
                 </div>
                 <!-- End Info Item -->
@@ -569,6 +559,7 @@
                       name="message"
                       rows="6"
                       placeholder="Message"
+                      style="resize: none;"
                       required
                     ></textarea>
                   </div>
@@ -579,7 +570,6 @@
                     <div class="sent-message">
                       Your message has been sent. Thank you!
                     </div>
-
                     <button type="submit">Send Message</button>
                   </div>
                 </div>
