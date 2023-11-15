@@ -109,7 +109,7 @@
               <h3>Chúng tôi là</h3>
               <h2>Website hàng đầu đồng hành tìm kếm cùng bạn</h2>
               <p>
-               Cung cấp đa dạng thông tin về công việc , lĩnh vực . Đem lại cơ hội cho thị trường lao động giàu tiềm năng
+              Chúng tôi tự hào là nguồn cung cấp đa dạng thông tin về công việc và các lĩnh vực trong thị trường lao động, đem lại cơ hội không ngừng cho những người tìm kiếm nghề nghiệp và thị trường lao động giàu tiềm năng. Hãy khám phá cùng chúng tôi, nơi những cánh cửa sự nghiệp mở ra với vô số cơ hội đa dạng và hấp dẫn.
               </p>
             </div>
 
@@ -118,10 +118,9 @@
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
                   <div class="icon-box">
                     <i class="bi bi-buildings"></i>
-                    <h3>Eius provident</h3>
+                    <h3>Tìm kiếm việc làm</h3>
                     <p>
-                      Magni repellendus vel ullam hic officia accusantium ipsa
-                      dolor omnis dolor voluptatem
+                     Nơi cung cấp cơ hội và thông tin xu hướng nghề nghiệp hiện nay. Hãy cùng khám phá và tiến xa hơn trong sự nghiệp của bạn.
                     </p>
                   </div>
                 </div>
@@ -129,10 +128,9 @@
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
                   <div class="icon-box">
                     <i class="bi bi-clipboard-pulse"></i>
-                    <h3>Rerum aperiam</h3>
+                    <h3>Hồ sơ cá nhân</h3>
                     <p>
-                      Autem saepe animi et aut aspernatur culpa facere. Rerum
-                      saepe rerum voluptates quia
+                    Chúng tôi cung cấp mẫu hồ sơ chuyên nghiệp, giúp bạn nổi bật và thu hút sự chú ý của nhà tuyển dụng với bộ hồ sơ ấn tượng.
                     </p>
                   </div>
                 </div>
@@ -141,10 +139,9 @@
                 <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
                   <div class="icon-box">
                     <i class="bi bi-command"></i>
-                    <h3>Veniam omnis</h3>
+                    <h3>Nắm Bắt Thông Tin Mới</h3>
                     <p>
-                      Omnis perferendis molestias culpa sed. Recusandae quas
-                      possimus. Quod consequatur corrupti
+                    Cập nhật thông tin nghề nghiệp, lương thưởng, chế độ làm việc, xu hướng mới và kiến thức sâu rộng trong lĩnh vực IT.
                     </p>
                   </div>
                 </div>
@@ -474,9 +471,9 @@
                 <div class="col-md-6">
                   <div class="info-item" data-aos="fade" data-aos-delay="200">
                     <i class="bi bi-geo-alt"></i>
-                    <h3>Address</h3>
+                    <h3>Địa chỉ</h3>
                     <p>Đường Hàn Thuyên</p>
-                    <p>Khu phố 6,TP.Thủ Đức<</p>
+                    <p>Khu phố 6,TP.Thủ Đức</p>
                     <p>Thành phố Hồ Chí Minh</p>
                   </div>
                 </div>
@@ -485,7 +482,7 @@
                 <div class="col-md-6">
                   <div class="info-item" data-aos="fade" data-aos-delay="300">
                     <i class="bi bi-telephone"></i>
-                    <h3>Call Us</h3>
+                    <h3>SMS</h3>
                     <p>+1 23456789</p>
               
                   </div>
@@ -495,7 +492,7 @@
                 <div class="col-md-6">
                   <div class="info-item" data-aos="fade" data-aos-delay="400">
                     <i class="bi bi-envelope"></i>
-                    <h3>Email Us</h3>
+                    <h3>Email</h3>
                     <p>nhom_7@example.com</p>
                    
                   </div>
@@ -505,7 +502,7 @@
                 <div class="col-md-6">
                   <div class="info-item" data-aos="fade" data-aos-delay="500">
                     <i class="bi bi-clock"></i>
-                    <h3>Open Hours</h3>
+                    <h3>Giờ mở cửa</h3>
                     <p>Monday - Friday</p>
                     <p>9:00AM - 05:00PM</p>
                   </div>
@@ -528,7 +525,7 @@
                       type="text"`
                       name="name"
                       class="form-control"
-                      placeholder="Your Name"
+                      placeholder="Họ tên"
                       required
                     />
                   </div>
@@ -538,7 +535,7 @@
                       type="email"
                       class="form-control"
                       name="email"
-                      placeholder="Your Email"
+                      placeholder="Email"
                       required
                     />
                   </div>
@@ -548,7 +545,7 @@
                       type="text"
                       class="form-control"
                       name="subject"
-                      placeholder="Subject"
+                      placeholder="Tiêu đề"
                       required
                     />
                   </div>
@@ -558,7 +555,7 @@
                       class="form-control"
                       name="message"
                       rows="6"
-                      placeholder="Message"
+                      placeholder="Nội dung"
                       style="resize: none;"
                       required
                     ></textarea>
@@ -568,9 +565,9 @@
                     <div class="loading">Loading</div>
                     <div class="error-message"></div>
                     <div class="sent-message">
-                      Your message has been sent. Thank you!
+                    Cảm ơn bạn đã liên hệ với chúng tôi. Nếu bạn cần thêm thông tin hoặc có bất kỳ câu hỏi nào khác, đừng ngần ngại liên hệ lại. Chúng tôi luôn sẵn lòng hỗ trợ bạn. Chúc bạn một ngày tốt lành!
                     </div>
-                    <button type="submit">Send Message</button>
+                    <button type="submit">Gửi</button>
                   </div>
                 </div>
               </form>
