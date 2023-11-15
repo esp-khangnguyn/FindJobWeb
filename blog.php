@@ -9,7 +9,7 @@
           <div class="row d-flex justify-content-center text-center">
             <div class="col-lg-8">
               <h1>Blog</h1>
-              <p class="mb-0">Odio et unde deleniti. Deserunt numquam exercitationem. Officiis quo odio sint voluptas consequatur ut a odio voluptatem. Sit dolorum debitis veritatis natus dolores. Quasi ratione sint. Sit quaerat ipsum dolorem.</p>
+              <p class="mb-0">Chúng tôi cam kết giúp bạn khám phá cơ hội nghề nghiệp, phát triển kỹ năng, và định hình tương lai sự nghiệp của bạn. Hãy để chúng tôi hỗ trợ bạn trong việc tìm kiếm con đường đúng đắn đến công việc bạn mong muốn và đạt được mục tiêu sự nghiệp của mình.</p>
             </div>
           </div>
         </div>
@@ -191,8 +191,8 @@
 
         <div class="pagination d-flex justify-content-center">
           <ul>
-            <li><a href="#">1</a></li>
-            <li class="active"><a href="#">2</a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li ><a href="#">2</a></li>
             <li><a href="#">3</a></li>
           </ul>
         </div><!-- End pagination -->
