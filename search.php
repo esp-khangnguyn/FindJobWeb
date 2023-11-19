@@ -67,15 +67,23 @@
             </div>
           </div>
           <div class="row mt-2 ">
-            <ul class="row d-flex  flex-row bull list-unstyled justify-content-center ">
-              <li class="w-auto p-2  ">Gợi ý: </li>
-              <li class="w-auto p-2 rounded-2 border-light border-1 ">Java</li>
-              <li class="w-auto p-2 rounded-2 border-light border-1 ">React</li>
-              <li class="w-auto p-2 rounded-2 border-light border-1 ">.NET</li>
-              <li class="w-auto p-2 rounded-2 border-light border-1 ">Golang</li>
-              <li class="w-auto p-2 rounded-2 border-light border-1 ">Python</li>
-              <li class="w-auto p-2 rounded-2 border-light border-1 ">Lavarel</li>
-            </ul>
+            <form action="" method="get">
+              <ul class="row d-flex  flex-row bull list-unstyled justify-content-center ">
+                <li class="w-auto p-2  ">Gợi ý: </li>
+                <li class="list-item w-auto p-2 rounded-2 border-light border-1 ">
+                  <button class="hint-item  rounded-2  bg-transparent text-light" type="submit" name="key" value="java">Java</button>
+                </li>
+                <li class="list-item w-auto p-2 rounded-2 border-light border-1 ">
+                  <button class="hint-item  rounded-2  bg-transparent text-light" type="submit" name="key" value="C#">C#</button>
+                </li>
+                <li class="list-item w-auto p-2 rounded-2 border-light border-1 ">
+                  <button class="hint-item  rounded-2  bg-transparent text-light" type="submit" name="key" value="Golang">Golang</button>
+                </li>
+                <li class="list-item w-auto p-2 rounded-2 border-light border-1 ">
+                  <button class="hint-item  rounded-2  bg-transparent text-light" type="submit" name="key" value="React">React</button>
+                </li>
+              </ul>
+            </form>
           </div>
         </div>
       </div>

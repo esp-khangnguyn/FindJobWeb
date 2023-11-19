@@ -1,5 +1,6 @@
 <?php include 'header.php'  ?>
   <link rel="stylesheet" href="./assets/css/employer-information.css">
+  <link rel="stylesheet" href="./assets/css/profile-nav.css">
   <main id="main blog-details">
 
     <!-- Blog Details Page Title & Breadcrumbs -->
@@ -10,6 +11,14 @@
     </div><!-- End Page Title -->
 
     <!-- Blog-details Section - Blog Details Page -->
+    <div class="container profile-nav d-flex flex-row justify-content-start ">
+      <a href="cv.php" class="fs-5 active">
+          Thông tin
+      </a>
+      <a href="employ-management.php" class="fs-5">
+          Quản lý tuyển dụng
+      </a>
+    </div>
     <section id="blog-details" class="blog-details">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row g-5 d-flex gap-2 position-relative">  
@@ -24,7 +33,6 @@
                     <li class="list-group-item"> + Thêm chứng chỉ</li>
                 </ul>
                 <button type="file" class="w-100 bg-color border-0 button rounded-2 p-2 text-white mt-4" >
-                    Xem và tải cv
                 </button>
             </div><!-- End Sidebar -->
 

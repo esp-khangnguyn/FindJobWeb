@@ -1,5 +1,6 @@
-<?php include 'header.php'  ?>
+<?php include 'header-login.php'  ?>
   <link rel="stylesheet" href="./assets/css/cv.css">
+  <link rel="stylesheet" href="./assets/css/profile-nav.css">
   <main id="main blog-details">
 
     <!-- Blog Details Page Title & Breadcrumbs -->
@@ -10,6 +11,14 @@
     </div><!-- End Page Title -->
 
     <!-- Blog-details Section - Blog Details Page -->
+    <div class="container profile-nav d-flex flex-row justify-content-start ">
+      <a href="cv.php" class="fs-5 active">
+          Hồ sơ của tôi
+      </a>
+      <a href="my-jobs.php" class="fs-5">
+          Công việc
+      </a>
+    </div>
     <section id="blog-details" class="blog-details">
       <div class="container" data-aos="fade-up" data-aos-delay="100">
         <div class="row g-5 d-flex gap-2 position-relative">  

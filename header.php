@@ -72,7 +72,7 @@
             <li><a href="search.php#about">Tìm việc làm</a></li>
             <li class="dropdown has-dropdown">
               <a href="#"
-                ><span>Dropdown</span> <i class="bi bi-chevron-down"></i
+                ><span>Công việc</span> <i class="bi bi-chevron-down"></i
               ></a>
               <ul class="dd-box-shadow">
                 <li><a href="#"></a></li>

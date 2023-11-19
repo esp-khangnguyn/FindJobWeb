@@ -1,0 +1,8 @@
+.profile-nav a {
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-nav a.active {
+  border-bottom: 3px solid #eda01b;
+}

@@ -2958,3 +2958,30 @@ section {
   color: var(--contrast-color);
   background-color: rgba(var(--primary-color-rgb), 0.8);
 }
+
+.user-info {
+  max-width: 200px;
+  position: relative;
+}
+
+.user-info img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.user-nav {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  background-color: #f4f4f4;
+  transform: translateY(100%);
+}
+
+.user-info:hover .user-nav {
+  display: block;
+}
+
+.money-num {
+  color: #0ab305 !important;
+}

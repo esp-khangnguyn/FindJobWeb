@@ -10,6 +10,7 @@
     var(--main-color) 150.9%
   );
   padding-top: 120px;
+
   color: #ffff;
 }
 
@@ -20,10 +21,13 @@
 
 .blog-details {
   background-color: rgba(var(--default-color-rgb), 0.05);
+  margin-top: -10%;
 }
 
 .page-title .heading {
-  padding-bottom: 40px;
+  padding-bottom: 174px !important;
+  border-bottom-right-radius: 30%;
+  border-bottom-left-radius: 30%;
 }
 
 .blog-details .box {
@@ -57,4 +61,8 @@
 .emp-btn {
   text-align: center;
   font-weight: 700;
+}
+
+.money-num {
+  color: #0ab305 !important;
 }
