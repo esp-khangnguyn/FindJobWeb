@@ -18,4 +18,17 @@ var swiper = new Swiper(".mySwiper", {
   },
 });
 
-console.log(123);
+document.querySelector('#registrationForm').addEventListener('submit', function() {
+  // Set a flag in the local storage
+  localStorage.setItem('reopenModal', 'true');
+});
+
+// After the page reloads, check if the flag exists in the storage
+window.onload = function() {
+  if (localStorage.getItem('reopenModal')) {
+      // Reopen the modal
+      $('#register').modal('show');
+      // Remove the flag from the storage
+      localStorage.removeItem('reopenModal');
+  }
+};

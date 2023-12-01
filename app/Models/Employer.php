@@ -10,36 +10,32 @@ use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 
 /**
- * Class User
+ * Class Employer
  * 
  * @property int $id
  * @property string $name
- * @property string $introduce
- * @property string $education
- * @property string $experience
- * @property string $skill
+ * @property string $location
+ * @property string $working_time
+ * @property string $quality
  * @property string $own_project
- * @property string $certificate
  * @property string $prize
  * 
  * @property Collection|Account[] $accounts
- * @property Collection|Apply[] $applies
+ * @property Collection|Job[] $jobs
  *
  * @package App\Models
  */
-class User extends Model
+class Employer extends Model
 {
-	protected $table = 'user';
+	protected $table = 'employer';
 	public $timestamps = false;
 
 	protected $fillable = [
 		'name',
-		'introduce',
-		'education',
-		'experience',
-		'skill',
+		'location',
+		'working_time',
+		'quality',
 		'own_project',
-		'certificate',
 		'prize'
 	];
 
@@ -48,8 +44,8 @@ class User extends Model
 		return $this->hasMany(Account::class, 'uid');
 	}
 
-	public function applies()
+	public function jobs()
 	{
-		return $this->hasMany(Apply::class, 'uid');
+		return $this->hasMany(Job::class, 'eid');
 	}
 }

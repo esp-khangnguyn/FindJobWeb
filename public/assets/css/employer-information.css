@@ -29,9 +29,9 @@
 .blog-details .box {
   background-color: #fff;
   border-radius: 8px;
-  height: auto;
-  position: sticky;
-  top: 0;
+  height: fit-content;
+
+  margin-top: 10px;
 }
 
 .blog-details .box {
@@ -59,15 +59,5 @@
 }
 
 .avatar-containter img {
-  border-radius: 50%;
-}
-
-.box .edit-icon {
-  float: inline-end;
-  width: 24px;
-  height: 24px;
-}
-
-.cv-image {
-  width: 100%;
+  border-radius: 12px;
 }

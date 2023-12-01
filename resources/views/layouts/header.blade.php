@@ -29,9 +29,13 @@
 
     <!-- Template Main CSS File -->
     <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet" />
-
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
 
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
     <!-- =======================================================
   * Template Name: Append
   * Updated: Sep 18 2023 with Bootstrap v5.3.2
@@ -44,7 +48,7 @@
 <body class="index-page" data-bs-spy="scroll" data-bs-target="#navmenu">
     <header id="header" class="header fixed-top d-flex align-items-center ">
         <div class="container-fluid d-flex align-items-center justify-content-between">
-            <a href="/" class="logo d-flex align-items-center me-auto me-xl-0">
+            <a href="index.php" class="logo d-flex align-items-center me-auto me-xl-0">
                 <!-- Uncomment the line below if you also wish to use an image logo -->
                 <!-- <img src="assets/img/logo.png" alt=""> -->
                 <h1>Find Your Job</h1>
@@ -54,10 +58,10 @@
             <!-- Nav Menu -->
             <nav id="navmenu" class="navmenu">
                 <ul>
-                    <li><a href="/" class="active">Trang chủ</a></li>
-                    <li><a href="search">Tìm việc làm</a></li>
+                    <li><a href="index.php#hero" class="active">Trang chủ</a></li>
+                    <li><a href="{{ route('search') }}">Tìm việc làm</a></li>
                     <li class="dropdown has-dropdown">
-                        <a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down"></i></a>
+                        <a href="#"><span>Công việc</span> <i class="bi bi-chevron-down"></i></a>
                         <ul class="dd-box-shadow">
                             <li><a href="#"></a></li>
                             <li class="dropdown has-dropdown">
@@ -76,7 +80,7 @@
                             <li><a href="#">Dropdown 4</a></li>
                         </ul>
                     </li>
-                    <li><a href="/#contact">Contact</a></li>
+                    <li><a href="index.php#contact">Contact</a></li>
                 </ul>
 
                 <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
@@ -102,25 +106,40 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form method="POST" action="{{ route('login') }}">
+                        @csrf
                         <div class="mb-3">
                             <label for="recipient-name" class="col-form-label">Tài khoản</label>
-                            <input type="text" class="form-control" id="account">
-
+                            <input type="text" class="form-control" id="account" name="username">
+                            @error('username')
+                                <div class="alert alert-danger mt-2">{{ $message }}</div>
+                            @enderror
                         </div>
                         <div class="mb-3">
                             <label for="message-text" class="col-form-label">Mật Khẩu</label>
-                            <input type="password" class="form-control" id="password">
+                            <input type="password" class="form-control" id="password" name="password">
+                            @error('password')
+                                <div class="alert alert-danger mt-2">{{ $message }}</div>
+                            @enderror
                         </div>
-                    </form>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-primary bg-color border-0 " data-bs-target="#register"
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-primary bg-color border-0 " data-bs-target="#register"
                         data-bs-toggle="modal">Đăng kí</button>
-                    <button type="button" class="btn btn-primary bg-color border-0 "
+                        <button type="button" class="btn btn-primary bg-color border-0 "
                         data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">Quên mật khẩu</button>
-                    <button type="button" class="btn btn-primary bg-color border-0">Đăng nhập</button>
-                </div>
+                        <button type="submit" class="btn btn-primary bg-color border-0">Đăng nhập</button>
+                    </div>
+                </form>
+                @if (Session::has('success'))
+                        <script>
+                            toastr.options = {
+                                "closeButton": true,
+                                "preventDuplicates": true
+                            }
+                            toastr.success("{{ Session::get('success') }}");
+                        </script>
+                @endif
             </div>
         </div>
     </div>
@@ -161,39 +180,63 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="register">Quên mật khẩu</h1>
+                    <h1 class="modal-title fs-5" id="register">Đăng ký</h1>
                     <button type="button" class="btn-close" data-bs-target="#exampleModal"
                         data-bs-toggle="modal"></button>
                 </div>
                 <div class="modal-body">
-                    <form>
+                    <form id="registrationForm" method="POST" action="{{ route('register') }}">
+                        @csrf
                         <div class="mb-3">
                             <label for="recipient-name" class="col-form-label">Email</label>
-                            <input type="text" class="form-control" id="account">
+                            <input type="text" class="form-control" id="account" name="email">
+                            @error('email')
+                                <div class="alert alert-danger mt-2">{{ $message }}</div>
+                            @enderror
                         </div>
                         <div class="mb-3">
                             <label for="recipient-name" class="col-form-label">Tài khoản</label>
-                            <input type="text" class="form-control" id="account">
+                            <input type="text" class="form-control" id="account" name="username">
+                            @error('username')
+                                <div class="alert alert-danger mt-2">{{ $message }}</div>
+                            @enderror
                         </div>
                         <div class="mb-3">
                             <label for="message-text" class="col-form-label">Mật Khẩu</label>
-                            <input type="password" class="form-control" id="password">
+                            <input type="password" class="form-control" id="password" name="password">
+                            @error('password')
+                                <div class="alert alert-danger mt-2">{{ $message }}</div>
+                            @enderror
                         </div>
                         <div class="mb-3">
                             <label for="message-text" class="col-form-label">Nhập lại mật Khẩu</label>
-                            <input type="password" class="form-control" id="confirm-password">
+                            <input type="password" class="form-control" id="confirm-password"
+                                name="password_confirmation">
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <input class="form-check-input" type="checkbox" value="1" id="flexCheckDefault"
+                                name="terms">
                             <label class="form-check-label" for="flexCheckDefault">
                                 Tôi đã đọc và đồng ý với các Điều khoản dịch vụ và Chính sách quyền riêng tư của
                                 FindJob.
                             </label>
+                            @error('terms')
+                                <div class="alert alert-danger mt-2">{{ $message }}</div>
+                            @enderror
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary">Xác nhận</button>
                         </div>
                     </form>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-primary">Xác nhận</button>
+                    @if (Session::has('success'))
+                        <script>
+                            toastr.options = {
+                                "closeButton": true,
+                                "preventDuplicates": true
+                            }
+                            toastr.success("{{ Session::get('success') }}");
+                        </script>
+                    @endif
                 </div>
             </div>
         </div>

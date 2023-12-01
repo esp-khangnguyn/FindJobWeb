@@ -29,3 +29,14 @@
   background-color: var(--main-color) !important;
   color: #ffff !important;
 }
+
+.list-item {
+  border: 1px solid #ffff;
+  border-radius: 10%;
+  margin: 0 6px;
+}
+
+.hint-item {
+  outline: none;
+  border: none;
+}
