@@ -77,9 +77,12 @@
                                 </div>
                               </td>
                               <td class="align-middle">
-                                <div class="d-flex flex-row align-items-center text-center">
-                                  <p class="fw-bold fs-2 ">..</p>
-                                </div>
+                                <p class="fw-bold fs-2 " data-bs-toggle="dropdown" aria-expanded="false">..</p>
+                                  <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="employer-information.php">Xem công ty</a></li>
+                                      <li><a class="dropdown-item" href="employ-management.php">Quản lý tuyển dụng</a></li>
+                                    <li><a class="dropdown-item" href="#">X Xóa</a></li>
+                                  </ul>
                               </td>
                             </tr>
                             <tr class="p-4">
@@ -105,8 +108,13 @@
                                 </div>
                               </td>
                               <td class="align-middle">
-                                <div class="d-flex flex-row align-items-center text-center">
-                                  <p class="fw-bold fs-2 ">..</p>
+                                <div class="d-flex flex-row align-items-center text-center dropdown ">
+                                  <p class="fw-bold fs-2 " data-bs-toggle="dropdown" aria-expanded="false">..</p>
+                                  <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="employer-information.php">Xem công ty</a></li>
+                                      <li><a class="dropdown-item" href="employ-management.php">Quản lý tuyển dụng</a></li>
+                                    <li><a class="dropdown-item" href="#">X Xóa</a></li>
+                                  </ul>
                                 </div>
                               </td>
                             </tr><tr class="p-4">

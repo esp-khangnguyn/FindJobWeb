@@ -103,99 +103,70 @@
               <h2 class="title">
                 <a href="blog-details.php">Java Backend Developer (MySQL, Spring)</a>
               </h2>
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+              <div class="d-flex  justify-content-start gap-4">
+                <img src="assets/img/blog/blog-author.jpg" alt="" class="avt-com rounded-4 " >
                 <div class="post-meta">
-                  <p class="post-author">Maria Doe</p>
-                  <p>Salary $1000 - $2000</p>
+                  <p class="post-author fw-bold ">OGC</p>
+                  <p class="money-num fw-bold "><span><img src="./assets/img/circle-money.png" alt="" width="20" height="20"></span> $1000 - $2000</p>
                   <p>at Company</p>
                   <p>Ho Chi Minh</p>
                 </div>
               </div>
 
             </article>
-          </div><!-- End post list item -->
+          </div>
+          <!-- End post list item -->
           <div class="col-xl-6 col-lg-6">
             <article>
               <h2 class="title">
                 <a href="blog-details.php">Java Backend Developer (MySQL, Spring)</a>
               </h2>
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+              <div class="d-flex  justify-content-start gap-4">
+                <img src="assets/img/blog/blog-author.jpg" alt="" class="avt-com rounded-4 " >
                 <div class="post-meta">
-                  <p class="post-author">Maria Doe</p>
-                  <p>Salary $1000 - $2000</p>
+                  <p class="post-author fw-bold ">OGC</p>
+                  <p class="money-num fw-bold "><span><img src="./assets/img/circle-money.png" alt="" width="20" height="20"></span> $1000 - $2000</p>
                   <p>at Company</p>
                   <p>Ho Chi Minh</p>
                 </div>
               </div>
 
             </article>
-          </div><!-- End post list item --><div class="col-xl-6 col-lg-6">
+          </div>
+          <div class="col-xl-6 col-lg-6">
             <article>
               <h2 class="title">
                 <a href="blog-details.php">Java Backend Developer (MySQL, Spring)</a>
               </h2>
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+              <div class="d-flex  justify-content-start gap-4">
+                <img src="assets/img/blog/blog-author.jpg" alt="" class="avt-com rounded-4 " >
                 <div class="post-meta">
-                  <p class="post-author">Maria Doe</p>
-                  <p>Salary $1000 - $2000</p>
+                  <p class="post-author fw-bold ">OGC</p>
+                  <p class="money-num fw-bold "><span><img src="./assets/img/circle-money.png" alt="" width="20" height="20"></span> $1000 - $2000</p>
                   <p>at Company</p>
                   <p>Ho Chi Minh</p>
                 </div>
               </div>
 
             </article>
-          </div><!-- End post list item --><div class="col-xl-6 col-lg-6">
+          </div>
+          <div class="col-xl-6 col-lg-6">
             <article>
               <h2 class="title">
                 <a href="blog-details.php">Java Backend Developer (MySQL, Spring)</a>
               </h2>
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
+              <div class="d-flex  justify-content-start gap-4">
+                <img src="assets/img/blog/blog-author.jpg" alt="" class="avt-com rounded-4 " >
                 <div class="post-meta">
-                  <p class="post-author">Maria Doe</p>
-                  <p>Salary $1000 - $2000</p>
+                  <p class="post-author fw-bold ">OGC</p>
+                  <p class="money-num fw-bold "><span><img src="./assets/img/circle-money.png" alt="" width="20" height="20"></span> $1000 - $2000</p>
                   <p>at Company</p>
                   <p>Ho Chi Minh</p>
                 </div>
               </div>
 
             </article>
-          </div><!-- End post list item --><div class="col-xl-6 col-lg-6">
-            <article>
-              <h2 class="title">
-                <a href="blog-details.php">Java Backend Developer (MySQL, Spring)</a>
-              </h2>
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0 col-4 ">
-                <div class="post-meta">
-                  <p class="post-author">Maria Doe</p>
-                  <p>Salary $1000 - $2000</p>
-                  <p>at Company</p>
-                  <p>Ho Chi Minh</p>
-                </div>
-              </div>
-
-            </article>
-          </div><!-- End post list item --><div class="col-xl-6 col-lg-6">
-            <article>
-              <h2 class="title">
-                <a href="blog-details.php">Java Backend Developer (MySQL, Spring)</a>
-              </h2>
-              <div class="d-flex align-items-center">
-                <img src="assets/img/blog/blog-author.jpg" alt="" class="img-fluid post-author-img flex-shrink-0">
-                <div class="post-meta">
-                  <p class="post-author">Maria Doe</p>
-                  <p>Salary $1000 - $2000</p>
-                  <p>at Company</p>
-                  <p>Ho Chi Minh</p>
-                </div>
-              </div>
-
-            </article>
-          </div><!-- End post list item -->
+          </div>
 
         
 
