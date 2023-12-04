@@ -64,7 +64,7 @@
                     <!-- End Sidebar -->
                 </div>
             
-                <form class="col-lg-8 box-content" action="/Employer/Update" method="post" enctype="multipart/form-data">
+                <form class="col-lg-8 box-content" action="" method="post" enctype="multipart/form-data">
                     <div class="box" id="introduce-section">
                         <div class="content d-flex flex-row">
                             <div class="avatar-containter position-relative ">
