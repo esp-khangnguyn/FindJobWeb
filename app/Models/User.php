@@ -13,14 +13,14 @@ use Illuminate\Database\Eloquent\Model;
  * Class User
  * 
  * @property int $id
- * @property string $name
- * @property string $introduce
- * @property string $education
- * @property string $experience
- * @property string $skill
- * @property string $own_project
- * @property string $certificate
- * @property string $prize
+ * @property string|null $name
+ * @property string|null $introduce
+ * @property string|null $education
+ * @property string|null $experience
+ * @property string|null $skill
+ * @property string|null $own_project
+ * @property string|null $certificate
+ * @property string|null $prize
  * 
  * @property Collection|Account[] $accounts
  * @property Collection|Apply[] $applies
@@ -45,7 +45,7 @@ class User extends Model
 
 	public function accounts()
 	{
-		return $this->hasMany(Account::class, 'uid');
+		return $this->hasMany(Account::class, 'userID');
 	}
 
 	public function applies()

@@ -13,12 +13,12 @@ use Illuminate\Database\Eloquent\Model;
  * Class Employer
  * 
  * @property int $id
- * @property string $name
- * @property string $location
- * @property string $working_time
- * @property string $quality
- * @property string $own_project
- * @property string $prize
+ * @property string|null $name
+ * @property string|null $location
+ * @property string|null $working_time
+ * @property string|null $introduce
+ * @property string|null $own_project
+ * @property string|null $prize
  * 
  * @property Collection|Account[] $accounts
  * @property Collection|Job[] $jobs
@@ -34,14 +34,14 @@ class Employer extends Model
 		'name',
 		'location',
 		'working_time',
-		'quality',
+		'introduce',
 		'own_project',
 		'prize'
 	];
 
 	public function accounts()
 	{
-		return $this->hasMany(Account::class, 'uid');
+		return $this->hasMany(Account::class, 'employerID');
 	}
 
 	public function jobs()

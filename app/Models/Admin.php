@@ -13,7 +13,7 @@ use Illuminate\Database\Eloquent\Model;
  * Class Admin
  * 
  * @property int $id
- * @property string $name
+ * @property string|null $name
  * 
  * @property Collection|Account[] $accounts
  *
@@ -30,6 +30,6 @@ class Admin extends Model
 
 	public function accounts()
 	{
-		return $this->hasMany(Account::class, 'uid');
+		return $this->hasMany(Account::class, 'adminID');
 	}
 }

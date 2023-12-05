@@ -16,8 +16,10 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
  * @property string $username
  * @property string $email
  * @property string $password
- * @property int $role
- * @property int|null $uid
+ * @property string $role
+ * @property int|null $userID
+ * @property int|null $employerID
+ * @property int|null $adminID
  * 
  * @property Admin|null $admin
  * @property Employer|null $employer
@@ -31,8 +33,9 @@ class Account extends Authenticatable
 	public $timestamps = false;
 
 	protected $casts = [
-		'role' => 'int',
-		'uid' => 'int'
+		'userID' => 'int',
+		'employerID' => 'int',
+		'adminID' => 'int'
 	];
 
 	protected $hidden = [
@@ -44,21 +47,23 @@ class Account extends Authenticatable
 		'email',
 		'password',
 		'role',
-		'uid'
+		'userID',
+		'employerID',
+		'adminID'
 	];
 
 	public function admin()
 	{
-		return $this->belongsTo(Admin::class, 'uid');
+		return $this->belongsTo(Admin::class, 'adminID');
 	}
 
 	public function employer()
 	{
-		return $this->belongsTo(Employer::class, 'uid');
+		return $this->belongsTo(Employer::class, 'employerID');
 	}
 
 	public function user()
 	{
-		return $this->belongsTo(User::class, 'uid');
+		return $this->belongsTo(User::class, 'userID');
 	}
 }

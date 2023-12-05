@@ -1,6 +1,6 @@
 @include('header')
-  <link rel="stylesheet" href="./assets/css/cv.css">
-  <link rel="stylesheet" href="./assets/css/profile-nav.css">
+  <link rel="stylesheet" href="{{ asset('assets/css/cv.css')}}">
+  <link rel="stylesheet" href="{{ asset('assets/css/profile-nav.css')}}">
   <main id="main blog-details">
 
     <!-- Blog Details Page Title & Breadcrumbs -->
@@ -49,7 +49,7 @@
             <div class="box">
               <div class="content d-flex flex-row">
                 <div class="avatar-containter d-flex ">
-                    <img src="./assets/img/blog/blog-author-2.jpg" alt="" class="w-100 ">
+                    <img src="{{ asset('assets/img/blog/blog-author-2.jpg')}}" alt="" class="w-100 ">
                 </div>
                 <div class="info-container ms-4 ">
                     <h3>React ,Node js</h3>
@@ -64,7 +64,7 @@
             <div class="box">
               <div class="content d-flex flex-row">
                 <div class="avatar-containter d-flex ">
-                    <img src="./assets/img/blog/blog-author-2.jpg" alt="" class="w-100 ">
+                    <img src="{{ asset('assets/img/blog/blog-author-2.jpg')}}" alt="" class="w-100 ">
                 </div>
                 <div class="info-container ms-4 ">
                     <h3>React ,Node js</h3>
@@ -79,7 +79,7 @@
             <div class="box">
               <div class="content d-flex flex-row">
                 <div class="avatar-containter d-flex ">
-                    <img src="./assets/img/blog/blog-author-2.jpg" alt="" class="w-100 ">
+                    <img src="{{ asset('assets/img/blog/blog-author-2.jpg')}}" alt="" class="w-100 ">
                 </div>
                 <div class="info-container ms-4 ">
                     <h3>React ,Node js</h3>
@@ -94,7 +94,7 @@
             <div class="box">
               <div class="content d-flex flex-row">
                 <div class="avatar-containter d-flex ">
-                    <img src="./assets/img/blog/blog-author-2.jpg" alt="" class="w-100 ">
+                    <img src="{{ asset('assets/img/blog/blog-author-2.jpg')}}" alt="" class="w-100 ">
                 </div>
                 <div class="info-container ms-4 ">
                     <h3>React ,Node js</h3>
