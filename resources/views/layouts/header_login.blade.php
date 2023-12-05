@@ -28,9 +28,22 @@
 
     <!-- Template Main CSS File -->
     <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet" />
-
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" rel="stylesheet"/>
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+    <script src="https://cdn.ckeditor.com/4.16.0/standard/ckeditor.js"></script>
+    <script>
+      toastr.options = {
+          "closeButton": true,
+          "preventDuplicates": true,
+          "showDuration": "100",
+          "hideDuration": "1000",
+          "timeOut": "1000",
+          "extendedTimeOut": "1000",
+      }
+  </script>
     <!-- =======================================================
   * Template Name: Append
   * Updated: Sep 18 2023 with Bootstrap v5.3.2
@@ -97,7 +110,7 @@
                     <li class="dropdown has-dropdown">
                         <div class="d-flex flex-row justify-align-content-around align-items-center gap-2 ">
                             <img src="{{ asset('assets/img/blog/blog-author-2.jpg')}}" alt="" class="">
-                            <p class="text-light fw-bold m-0 gap-2 ">Khang Nguyễn</p>
+                            <p class="text-light fw-bold m-0 gap-2 ">{{ auth()->user()->username}}</p>
                         </div>
                         <ul class="dd-box-shadow">
                             <li><a href="{{ route('profile')}}">Hồ sơ của tôi</a></li>

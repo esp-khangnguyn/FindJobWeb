@@ -65,7 +65,8 @@
                   <!-- End Sidebar -->
               </div>
               <form class="col-lg-8 box-content" method="post" enctype="multipart/form-data" action="{{route('profile.employer')}}">
-                  <div class="box" id="introduce-section">
+                    @csrf  
+                <div class="box" id="introduce-section">
                       <div class="content d-flex flex-row">
                           <div class="avatar-containter position-relative ">
                               <img src="{{ asset('assets/img/blog/blog-author-2.jpg')}}" alt="" class="w-100 ">
@@ -84,7 +85,7 @@
                               Giới thiệu công ty
                           </h3>
                           <div class="form-floating">
-                            <textarea name="Introduce" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px">{{ $userProfile->introduce}}</textarea>
+                            <textarea name="introduce" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px">{{ $userProfile->introduce}}</textarea>
                           </div>
                       </div>
                   </div>
@@ -94,7 +95,7 @@
                               Địa chỉ
                           </h3>
                           <div class="form-floating">
-                              <textarea name="Location" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px">{{ $userProfile->location }}</textarea>
+                              <textarea name="location" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px">{{ $userProfile->location }}</textarea>
                           </div>
                       </div>
                   </div>
@@ -104,7 +105,7 @@
                               Thời gian làm việc
                           </h3>
                           <div class="form-floating" id="project-section">
-                              <textarea name="WorkingTime" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px">{{ $userProfile->working_time }}</textarea>
+                              <textarea name="workingTime" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px">{{ $userProfile->working_time }}</textarea>
                           </div>
                       </div>
                   </div>
@@ -114,7 +115,7 @@
                               Dự án đã thực hiện
                           </h3>
                           <div class="form-floating">
-                              <textarea name="OwnProject" class="form-control" id="floatingTextarea2" style="height: 100px">{{ $userProfile->own_project}}</textarea>
+                              <textarea name="ownProject" class="form-control" id="floatingTextarea2" style="height: 100px">{{ $userProfile->own_project}}</textarea>
                           </div>
                       </div>
                   </div>
@@ -124,7 +125,7 @@
                               Giải thưởng
                           </h3>
                           <div class="form-floating">
-                              <textarea name="Prize" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px">{{ $userProfile->prize}}</textarea>
+                              <textarea name="prize" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px">{{ $userProfile->prize}}</textarea>
                           
                           </div>
                       </div>
@@ -133,6 +134,11 @@
                       Cập nhật
                   </button>
               </form>
+              @if (session('success'))
+              <script>
+                toastr.success('{{ session('success') }}');
+            </script>
+                @endif
           </div>
       </div>
   </section>

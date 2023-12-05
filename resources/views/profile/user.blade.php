@@ -65,7 +65,8 @@
                 <!-- End Sidebar -->
             </div>
 
-            <form class="col-lg-8 box-content"  >
+            <form class="col-lg-8 box-content" method="POST" action="{{route('profile.user')}}">
+                @csrf
                 <div class="box" id="introduce-section">
                     <div class="content d-flex flex-row">
                         <div class="avatar-containter">
@@ -74,8 +75,8 @@
                         </div>
 
                         <div class="info-container ms-4 ">
-                            <input type="text" name="name" value="Name" />
-                            <p>Email</p>
+                            <input type="text" name="name" value="{{$userProfile->name}}" />
+                            <p>{{ $email }}</p>
                         </div>
                     </div>
                 </div>
@@ -85,7 +86,7 @@
                             Giới thiệu bản thân
                         </h3>
                         <div class="form-floating">
-                            <textarea name="Introduce" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px">Introduce</textarea>
+                            <textarea name="introduce" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px">{{ $userProfile->introduce }}</textarea>
                         </div>
                     </div>
                 </div>
@@ -95,7 +96,7 @@
                             Học vấn
                         </h3>
                         <div class="form-floating">
-                            <textarea name="Education" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px">Education</textarea>
+                            <textarea name="education" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px">{{$userProfile->education}}</textarea>
                         </div>
                     </div>
                 </div>
@@ -105,7 +106,7 @@
                             Kinh nghiệm
                         </h3>
                         <div class="form-floating" id="project-section">
-                            <textarea name="Expirience" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px">Expirience</textarea>
+                            <textarea name="experience" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px">{{$userProfile->experience}}</textarea>
                         </div>
                     </div>
                 </div>
@@ -115,7 +116,7 @@
                             Kĩ năng
                         </h3>
                         <div class="form-floating">
-                            <textarea name="Skill" class="form-control" id="floatingTextarea2" style="height: 100px">Skill</textarea>
+                            <textarea name="skill" class="form-control" id="floatingTextarea2" style="height: 100px">{{$userProfile->skill}}</textarea>
                         </div>
                     </div>
                 </div>
@@ -127,7 +128,7 @@
                             Dự án đã thực hiện
                         </h3>
                         <div class="form-floating">
-                            <textarea name="OwnProject" class="form-control" id="floatingTextarea2" style="height: 100px">OwnProject</textarea>
+                            <textarea name="ownProject" class="form-control" id="floatingTextarea2" style="height: 100px">{{$userProfile->own_project}}</textarea>
                         </div>
                     </div>
                 </div>
@@ -138,7 +139,7 @@
                             Chứng chỉ
                         </h3>
                         <div class="form-floating">
-                            <textarea name="Certificate" class="form-control" id="floatingTextarea2" style="height: 100px">Certificate</textarea>
+                            <textarea name="certificate" class="form-control" id="floatingTextarea2" style="height: 100px">{{$userProfile->certificate}}</textarea>
                         </div>
                     </div>
                 </div>
@@ -149,7 +150,7 @@
                             Giải thưởng
                         </h3>
                         <div class="form-floating">
-                            <textarea name="Prize" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px">Prize</textarea>
+                            <textarea name="prize" class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px">{{$userProfile->prize}}</textarea>
 
                         </div>
                     </div>
@@ -158,6 +159,11 @@
                     Cập nhật
                 </button>
             </form>
+            @if (session('success'))
+                <script>
+                    toastr.success('{{ session('success') }}')
+                    </script>
+            @endif
         </div>
     </div>
 </section>

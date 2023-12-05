@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\AccountController;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\JobController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\SearchController;
@@ -85,3 +86,9 @@ Route::post('/profile/employer', [
 Route::get('/profile/employer', function () {
     abort(404);
 });
+
+//Job
+Route::get('/job/create', [
+    JobController::class,
+    'index'
+])->name('job.create');
