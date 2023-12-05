@@ -99,11 +99,15 @@ INSERT INTO `employer` (`id`, `name`, `location`, `working_time`, `introduce`, `
 
 CREATE TABLE `jobs` (
   `id` int(10) UNSIGNED NOT NULL,
-  `name` int(11) NOT NULL,
-  `salary` double(13,2) UNSIGNED NOT NULL,
+  `name` varchar(256) NOT NULL,
+  `salary` decimal(18,2) UNSIGNED NOT NULL,
+  `salary_min` decimal(18,2) DEFAULT NULL,
+  `salary_max` decimal(18,2) DEFAULT NULL,
   `reasons` text NOT NULL,
   `descriptions` text NOT NULL,
   `requirements` text NOT NULL,
+  `location` varchar(80) NOT NULL,
+  `working_type` varchar(80) NOT NULL,
   `eid` int(10) UNSIGNED NOT NULL,
   `create_on` datetime NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
