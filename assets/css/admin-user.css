@@ -1,0 +1,14 @@
+.item-user {
+  background-color: rgb(248, 250, 251);
+  border-radius: 16px;
+}
+
+.item-user:hover {
+  box-shadow: 1px 11px 13px rgb(255, 108, 12);
+}
+
+.avt-user {
+  width: 80px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+}

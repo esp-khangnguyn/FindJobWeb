@@ -52,85 +52,82 @@
 
 <body class="index-page" data-bs-spy="scroll" data-bs-target="#navmenu">
 <header id="header" class="header fixed-top d-flex align-items-center ">
-      <div
-        class="container-fluid d-flex align-items-center justify-content-between"
-      >
-        <a
-          href="index.php"
-          class="logo d-flex align-items-center me-auto me-xl-0"
-        >
-          <!-- Uncomment the line below if you also wish to use an image logo -->
-          <!-- <img src="assets/img/logo.png" alt=""> -->
-          <h1>Find Your Job</h1>
-          <span>.</span>
+    <div class="container-fluid d-flex align-items-center justify-content-between">
+        <a href="#"
+           class="logo d-flex align-items-center me-auto me-xl-0">
+            <!-- Uncomment the line below if you also wish to use an image logo -->
+            <!-- <img src="assets/img/logo.png" alt=""> -->
+            <h1>Find Your Job</h1>
+            <span>.</span>
         </a>
 
         <!-- Nav Menu -->
         <nav id="navmenu" class="navmenu">
-          <ul>
-            <li><a href="index.php#hero" class="active">Trang chủ</a></li>
-            <li><a href="search.php#about">Tìm việc làm</a></li>
-            <li class="dropdown has-dropdown">
-              <a href="#"
-                ><span>Dropdown</span> <i class="bi bi-chevron-down"></i
-              ></a>
-              <ul class="dd-box-shadow">
-                <li><a href="#"></a></li>
+            <ul>
+                <li><a href="#" class="active">Trang chủ</a></li>
+                <li><a href="search.php">Tìm việc làm</a></li>
                 <li class="dropdown has-dropdown">
-                  <a href="#"
-                    ><span>Theo kĩ năng</span>
-                    <i class="bi bi-chevron-down"></i
-                  ></a>
-                  <ul class="dd-box-shadow">
-                    <li><a href="#">Theo kĩ năng</a></li>
-                    <li><a href="#">Java </a></li>
-                    <li><a href="#">.NET </a></li>
-                    <li><a href="#">Python</a></li>
-                    <li><a href="#">React</a></li>
-                  </ul>
+                    <a href="#">
+                        <span>Dropdown</span> <i class="bi bi-chevron-down"></i>
+                    </a>
+                    <ul class="dd-box-shadow">
+                        <li><a href="#"></a></li>
+                        <li class="dropdown has-dropdown">
+                            <a href="#">
+                                <span>Theo kĩ năng</span>
+                                <i class="bi bi-chevron-down"></i>
+                            </a>
+                            <ul class="dd-box-shadow">
+                                <li><a href="#">Theo kĩ năng</a></li>
+                                <li><a href="#">Java </a></li>
+                                <li><a href="#">.NET </a></li>
+                                <li><a href="#">Python</a></li>
+                                <li><a href="#">React</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Theo kinh nghiệm</a></li>
+                        <li><a href="#">Dropdown 3</a></li>
+                        <li><a href="#">Dropdown 4</a></li>
+                    </ul>
                 </li>
-                <li><a href="#">Theo kinh nghiệm</a></li>
-                <li><a href="#">Dropdown 3</a></li>
-                <li><a href="#">Dropdown 4</a></li>
-              </ul>
-            </li>
-            <li><a href="index.php#contact">Contact</a></li>
-          </ul>
+                <li><a href="index.php#contact">Contact</a></li>
+            </ul>
 
-          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
         </nav>
         <!-- End Nav Menu -->
         <div class="header-button-group d-flex  flex-row gap-3 ">
-          <button type="button" class="btn-getstarted main-bg border-0 " data-bs-toggle="modal" data-bs-target="#employForm">
-            Nhà tuyển dụng
-          </button>
-          <div class="user-info">
-            <nav id="navmenu" class="navmenu">
-                <ul>
-                    <li class="dropdown has-dropdown">
-                        <div class="d-flex flex-row justify-align-content-around align-items-center gap-2 ">
-                            <img src="./assets/img/blog/blog-author-2.jpg" alt="" class="">
-                            <p class="text-light fw-bold m-0 gap-2 ">Khang Nguyễn</p>
-                        </div>
-                        <ul class="dd-box-shadow">
-                            <li><a href="cv.php">Hồ sơ của tôi</a></li>
-                            <li><a href="#">Công việc của tôi</a></li>
-                            <li><a href="#">Đăng xuất</a></li>
-                        </ul>
-                    </li>
-                </ul>
 
-                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-            </nav>
-          </div>
-          <div class="user-info d-flex flex-row justify-content-center gap-2 align-content-center text-light fw-bold  ">
-            <a href="#"><p>VI</p></a>
-            <span> / </span>
-            <a href="#"><p>EN</p></a>
-          </div>
+            <div class="user-info">
+                <nav id="navmenu" class="navmenu">
+                    <ul>
+                        <li class="dropdown has-dropdown">
+                            <div class="d-flex flex-row justify-align-content-around align-items-center gap-2 ">
+                                <img src="~/assets/img/default-avt.jpg" alt="" class="">
+                                <p class="text-light fw-bold m-0 gap-2 ">User </p>
+                            </div>
+
+                            
+                            <ul class="dd-box-shadow">
+                                <li><a href="#">Hồ sơ của tôi</a></li>
+                                <li><a href="#">Công việc của tôi</a></li>
+                                <li><a href="create-job.php">Đăng tin tuyển dụng</a></li>
+                                <li><a href="#">Đăng xuất</a></li>
+                            </ul>
+                          </li>
+                    </ul>
+
+                    <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+                </nav>
+            </div>
+            <div class="user-info d-flex flex-row justify-content-center gap-2 align-content-center text-light fw-bold  ">
+                <a href="#"><p>VI</p></a>
+                <span> / </span>
+                <a href="#"><p>EN</p></a>
+            </div>
         </div>
-      </div>
-  </header>
+    </div>
+</header>
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered ">
       <div class="modal-content">

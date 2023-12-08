@@ -57,8 +57,8 @@
                               </a>
                           </li>
                       </ul>
-                      <button class="w-100 bg-color border-0 button rounded-2 p-2 text-white mt-4">
-                      </button>
+                     
+                                  
                   </div>
                   <!-- End Sidebar -->
               </div>
